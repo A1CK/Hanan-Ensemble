@@ -1,0 +1,50 @@
+
+body{
+}
+.container{
+	margin:0 auto;
+	min-height:1200px;
+	width:1350px;
+	outline:1px solid blue;
+	background-image:url(images/contact.png);
+	background-repeat:no-repeat;	
+}
+header{
+	width:1350px;
+	height:160px;
+	outline:1px dashed red;
+}
+
+nav{
+	width:1350px;
+	height:70px;
+	outline:1px dashed red;		
+}
+.banner{
+	width:1350px;
+	height:400px;
+	outline:1px dashed red;		
+}
+/*-----contact--------*/
+.contact{
+	width:1350px;
+	height:500px;
+	outline:1px dashed red;		
+}
+.contact .info{
+	float:left;
+	width:300px;
+	margin-left:170px;
+	height:400px;
+	outline:1px dashed red;	
+}
+.contact .fourm{
+	margin-left:500px;
+	height:400px;
+	outline:1px dashed red;	
+}
+.copyright{
+	width:1350px;
+	height:70px;
+	outline:1px dashed red;		
+}
