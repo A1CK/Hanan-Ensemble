@@ -4,83 +4,87 @@ body{
 }
 .container{
 	margin:0 auto;
-	min-height:1200px;
 	width:1350px;
-	outline:1px solid blue;
-	/*background-image:url(images/contact.png);*/
+	outline:0px solid blue;
 	background-repeat:no-repeat;
 	direction:rtl;
+	/*background-image:url(images/about.png);*/
 }
 header{
 	width:1350px;
 	height:160px;
-	outline:1px dashed red;
 	background-color:black;
 	text-align:center;
 }
 header img{
-	width:480px;
+	width:512px;
 	height:140px;
+	margin-top:10px;
 }
-/* -- Menu Bar -- */
+/* -- Menu Bar And Banner -- */
 nav{
 	width:1350px;
 	height:70px;
-	outline:1px dashed red;
-	
+	background-color:black;
+	opacity:0.7;
 }
 nav .menu{
-	background-color:yellow;
-	height:34px;
-	outline:1px solid yellow;	
+	height:70px;
 }
 nav .menu ul{
 	list-style-type:none;
-	width:660px;
+	width:750px;
 	margin:0 auto;
 }
 nav .menu ul li{
 	float:right;
-	border-left:110px solid transparent;	
-	margin-top:10px;	
+	border-left:160px solid transparent;	
+	margin-top:25px;
+		
+}
+nav .menu ul li:last-child{
+	border-left:0 none;		
 }
 nav .menu ul li a{
 	text-decoration:none;
 	display:block;
-	color:red;		
+	color:white;	
+	font-size:20px;
+	
 }
-/* End Menu */
+
 .banner{
 	width:1350px;
-	height:400px;
-	outline:1px dashed red;		
+	height:470px;
+	background-image:url(images/slide.jpg);
+	
 }
 /*-----contact--------*/
 .contact{
 	width:1350px;
 	height:500px;
-	outline:1px dashed red;		
+	background-color:#e3e3e3;
+	outline:0px dashed red;		
 }
 .contact .info{
 	float:left;
 	width:300px;
 	margin-left:170px;
 	height:400px;
-	outline:1px dashed red;	
+	outline:0px dashed red;	
 }
 .contact .fourm{
 	margin-left:500px;
 	height:400px;
-	outline:1px dashed red;
+	outline:0px dashed red;
 	text-align:right;
 	
 }
 .contact .fourm .inside{
 	width:700px;
-	height:365px;
-	outline:1px dashed red;	
+	outline:0px dashed red;	
 	float:right;
-	margin-top:30px;
+	margin-top:60px;
 	margin-right:100px;
 	
 }
@@ -108,13 +112,44 @@ nav .menu ul li a{
 	background-color:white;	
 }
 /*----End Contact ----*/
-/*-----------------------------*/
+
+
+/*------ About Us --------*/
+.aboutus{
+	min-height:500px;
+	background-color:#e3e3e3;
+	padding:1px;	
+}
+.aboutus .inside{
+	width:1200px;
+	margin:0 auto;
+	height:400px;
+	outline:0px solid red;
+	margin-top:50px;	
+}
+.aboutus .inside .eng{
+	float:left;
+	width:550px;
+	height:400px;
+	outline:1px solid red;
+	text-align:left;		
+}
+.aboutus .inside .fa{
+	height:400px;
+	outline:1px solid red;
+	margin-left:650px;
+	text-align:right;	
+}
+
+
+
+
 /*-- Copyrights -- */
 .copyright{
 	width:1350px;
 	height:70px;
-	outline:1px dashed red;
-	padding:1px;	
+	padding:1px;
+	background-color:black;	
 }
 .copyright .text{
 	width:300px;
@@ -122,5 +157,6 @@ nav .menu ul li a{
 	margin:0 auto;
 	margin-top:30px;
 	color:white;
-	text-align:center;		
+	text-align:center;	
+	opacity:0.7;	
 }
