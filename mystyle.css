@@ -59,6 +59,14 @@ nav .menu ul li a{
 	background-image:url(images/slide.jpg);
 	
 }
+/* Inside Div In Bottom Of Page */
+#inside{
+	width:1200px;
+	margin:0 auto;
+	height:400px;
+	outline:1px solid red;
+	margin-top:50px;		
+}
 /*-----contact--------*/
 .contact{
 	width:1350px;
@@ -120,29 +128,63 @@ nav .menu ul li a{
 	background-color:#e3e3e3;
 	padding:1px;	
 }
-.aboutus .inside{
-	width:1200px;
-	margin:0 auto;
-	height:400px;
-	outline:0px solid red;
-	margin-top:50px;	
-}
-.aboutus .inside .eng{
+.aboutus #inside .eng{
 	float:left;
 	width:550px;
 	height:400px;
 	outline:1px solid red;
 	text-align:left;		
 }
-.aboutus .inside .fa{
+.aboutus #inside .fa{
 	height:400px;
 	outline:1px solid red;
 	margin-left:650px;
 	text-align:right;	
 }
-
-
-
+/* End AboutUs -- */
+/*-------------------------------------*/
+/*------Gallery-----------*/
+.gallery{
+	min-height:500px;
+	padding:1px;
+	background-color:#e3e3e3;	
+}
+.gallery #inside .hanan-video{
+	width:360px;
+	float:left;
+	height:400px;
+	outline:0px solid blue;
+	text-align:center;
+}
+.gallery #inside .hanan-video .iframe{
+	width:361px;
+	height:400px;
+	background-color:#e3e3e3;
+}
+#moveibar{
+	width:344px;
+	padding:1px;
+}
+#left{
+	float:left;
+	width:142px;
+	height:90px;
+	margin-left:20px;
+	margin-top:20px;
+	outline:1px solid red;	
+}
+#right{
+	margin-left:182px;
+	margin-right:20px;
+	margin-top:20px;
+	height:90px;
+	outline:1px solid red;	
+}
+.gallery .hanan-pic{
+	margin-left:500px;
+	height:400px;
+	outline:5px solid blue;
+}
 
 /*-- Copyrights -- */
 .copyright{
