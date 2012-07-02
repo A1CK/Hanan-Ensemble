@@ -213,9 +213,15 @@ nav .menu ul li a{
 }
 .gallery #inside .hanan-pic .button{
 	width:700px;
-	height:40px;
-	outline:2px solid red;
+	height:48px;
+	outline:0px solid red;
 	text-align:center;		
+}
+#next {
+	margin-left:50px;	
+}
+.gallery #inside .hanan-pic .button img{
+	cursor:pointer;		
 }
 
 /*-- Copyrights -- */
