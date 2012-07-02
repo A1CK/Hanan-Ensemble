@@ -184,20 +184,20 @@ nav .menu ul li a{
 .gallery #inside .hanan-video{
 	margin-right:835px;
 	height:400px;
-	outline:0px solid blue;
 	text-align:center;
 }
-.gallery .hanan-pic{
+.gallery #inside .hanan-pic{
 	float:right;
 	width:700px;
-	
+	margin:0 auto;
+	outline:1px solid blue;
 }
-#slideshow{
+.gallery #inside .hanan-pic .slidshow{
 	width:700px;
 	margin:0 auto;
 	overflow:hidden;
 }
-#slideshow .train{
+.gallery #inside .hanan-pic .slidshow .train{
 	width:7100px; /*  (10*700 + x)  */
 	position:relative;
 	-webkit-transition : left 916ms;
@@ -205,12 +205,17 @@ nav .menu ul li a{
 	-ms-transition : left 916ms;
 	-o-transition : left 916ms;
 }
-#slideshow .train div{
-	float:right;
-	outline:9px solid red;		
+.gallery #inside .hanan-pic .slidshow .train > div {
+	float:right;		
 }
-#slideshow .train > div > img{
+.gallery #inside .hanan-pic .slidshow .train > div > img{
 	display:block;		
+}
+.gallery #inside .hanan-pic .button{
+	width:700px;
+	height:40px;
+	outline:2px solid red;
+	text-align:center;		
 }
 
 /*-- Copyrights -- */
