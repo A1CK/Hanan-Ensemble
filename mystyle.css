@@ -158,7 +158,7 @@ nav .menu ul li a{
 	background-color:#e3e3e3;	
 }
 .gallery #inside .hanan-video .iframe{
-	width:361px;
+	width:365px;
 	height:400px;
 	background-color:#e3e3e3;
 }
@@ -184,16 +184,34 @@ nav .menu ul li a{
 .gallery #inside .hanan-video{
 	margin-right:835px;
 	height:400px;
-	outline:4px solid blue;
+	outline:0px solid blue;
 	text-align:center;
 }
 .gallery .hanan-pic{
 	float:right;
-	width:800px;
-	height:400px;
-	outline:5px solid red;
+	width:700px;
+	
 }
-
+#slideshow{
+	width:700px;
+	margin:0 auto;
+	overflow:hidden;
+}
+#slideshow .train{
+	width:7100px; /*  (10*700 + x)  */
+	position:relative;
+	-webkit-transition : left 916ms;
+	-moz-transition : left 916ms;
+	-ms-transition : left 916ms;
+	-o-transition : left 916ms;
+}
+#slideshow .train div{
+	float:right;
+	outline:9px solid red;		
+}
+#slideshow .train > div > img{
+	display:block;		
+}
 
 /*-- Copyrights -- */
 .copyright{
