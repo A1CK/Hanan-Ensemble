@@ -2,6 +2,14 @@
 body{
 	
 }
+.clear{
+	clear:both;
+	width:0 !important;
+	height:0 !important;
+	min-height:0 !important;
+	min-width:0 !important;
+	overflow:hidden;
+}
 .container{
 	margin:0 auto;
 	width:1350px;
@@ -65,7 +73,7 @@ nav .menu ul li a{
 	margin:0 auto;
 	height:400px;
 	outline:1px solid red;
-	margin-top:50px;		
+	margin-top:50px;	
 }
 /*-----contact--------*/
 .contact{
@@ -149,13 +157,6 @@ nav .menu ul li a{
 	padding:1px;
 	background-color:#e3e3e3;	
 }
-.gallery #inside .hanan-video{
-	width:360px;
-	float:left;
-	height:400px;
-	outline:0px solid blue;
-	text-align:center;
-}
 .gallery #inside .hanan-video .iframe{
 	width:361px;
 	height:400px;
@@ -180,11 +181,19 @@ nav .menu ul li a{
 	height:90px;
 	outline:1px solid red;	
 }
-.gallery .hanan-pic{
-	margin-left:500px;
+.gallery #inside .hanan-video{
+	margin-right:835px;
 	height:400px;
-	outline:5px solid blue;
+	outline:4px solid blue;
+	text-align:center;
 }
+.gallery .hanan-pic{
+	float:right;
+	width:800px;
+	height:400px;
+	outline:5px solid red;
+}
+
 
 /*-- Copyrights -- */
 .copyright{
