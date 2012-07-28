@@ -173,6 +173,7 @@ nav .menu ul li a{
 	margin-left:20px;
 	margin-top:20px;
 	outline:1px solid red;	
+	cursor:pointer;
 }
 #right{
 	margin-left:182px;
@@ -180,6 +181,7 @@ nav .menu ul li a{
 	margin-top:20px;
 	height:90px;
 	outline:1px solid red;	
+	cursor:pointer;
 }
 .gallery #inside .hanan-video{
 	margin-right:835px;
@@ -190,14 +192,10 @@ nav .menu ul li a{
 	float:right;
 	width:700px;
 	margin:0 auto;
-	outline:1px solid blue;
-}
-.gallery #inside .hanan-pic .slidshow{
-	width:700px;
-	margin:0 auto;
+	outline:4px solid blue;
 	overflow:hidden;
 }
-.gallery #inside .hanan-pic .slidshow .train{
+.gallery #inside .hanan-pic .scroll{
 	width:7100px; /*  (10*700 + x)  */
 	position:relative;
 	-webkit-transition : left 916ms;
@@ -205,10 +203,10 @@ nav .menu ul li a{
 	-ms-transition : left 916ms;
 	-o-transition : left 916ms;
 }
-.gallery #inside .hanan-pic .slidshow .train > div {
+.gallery #inside .hanan-pic .scroll > div {
 	float:right;		
 }
-.gallery #inside .hanan-pic .slidshow .train > div > img{
+.gallery #inside .hanan-pic .scroll > div > img{
 	display:block;		
 }
 .gallery #inside .hanan-pic .button{
