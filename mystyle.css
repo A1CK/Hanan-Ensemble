@@ -72,7 +72,7 @@ nav .menu ul li a{
 	width:1200px;
 	margin:0 auto;
 	height:400px;
-	outline:1px solid red;
+	outline:0px solid red;
 	margin-top:50px;	
 }
 /*-----contact--------*/
@@ -172,7 +172,6 @@ nav .menu ul li a{
 	height:90px;
 	margin-left:20px;
 	margin-top:20px;
-	outline:1px solid red;	
 	cursor:pointer;
 }
 #right{
@@ -180,48 +179,44 @@ nav .menu ul li a{
 	margin-right:20px;
 	margin-top:20px;
 	height:90px;
-	outline:1px solid red;	
 	cursor:pointer;
 }
 .gallery #inside .hanan-video{
 	margin-right:835px;
 	height:400px;
 	text-align:center;
+	outline:1px solid red;	
 }
+/* end video galllery  */
+
+/* PIC GALLERY */
 .gallery #inside .hanan-pic{
 	float:right;
-	width:700px;
-	margin:0 auto;
-	outline:4px solid blue;
-	overflow:hidden;
+	width:800px;
+	outline:1px solid blue;
+	height:400px;
 }
-.gallery #inside .hanan-pic .scroll{
-	width:7100px; /*  (10*700 + x)  */
-	position:relative;
-	-webkit-transition : left 916ms;
-	-moz-transition : left 916ms;
-	-ms-transition : left 916ms;
-	-o-transition : left 916ms;
+.gallery #inside .hanan-pic #alboum {
+	width:390px;
+	height:190px;
+	outline:2px solid red;
+	
 }
-.gallery #inside .hanan-pic .scroll > div {
-	float:right;		
+.gallery #inside .hanan-pic .firstalbm{
+	float:left;
+	background-image:url(images/first.jpg);
 }
-.gallery #inside .hanan-pic .scroll > div > img{
-	display:block;		
+.gallery #inside .hanan-pic .secondalbm{
+	margin-left:330px;			
 }
-.gallery #inside .hanan-pic .button{
-	width:700px;
-	height:48px;
-	outline:0px solid red;
-	text-align:center;		
+.gallery #inside .hanan-pic .thirthalbm{
+	float:left;
+	margin-top:20px;			
 }
-#next {
-	margin-left:50px;	
+.gallery #inside .hanan-pic .fourthalbm{
+	margin-left:330px;
+	margin-top:20px;			
 }
-.gallery #inside .hanan-pic .button img{
-	cursor:pointer;		
-}
-
 /*-- Copyrights -- */
 .copyright{
 	width:1350px;
